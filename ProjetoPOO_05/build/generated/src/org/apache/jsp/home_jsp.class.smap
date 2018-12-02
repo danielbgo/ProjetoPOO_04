@@ -5,6 +5,14 @@ JSP
 *F
 + 0 home.jsp
 home.jsp
++ 1 header.jspf
+WEB-INF/jspf/header.jspf
++ 2 navbar.jspf
+WEB-INF/jspf/navbar.jspf
 *L
-1,15:44
+1,8:50
+1#1,22:58
+8#0,3:80
+1#2,15:83
+10#0,8:98
 *E

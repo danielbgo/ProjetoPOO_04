@@ -11,6 +11,12 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   private static java.util.List<String> _jspx_dependants;
 
+  static {
+    _jspx_dependants = new java.util.ArrayList<String>(2);
+    _jspx_dependants.add("/WEB-INF/jspf/header.jspf");
+    _jspx_dependants.add("/WEB-INF/jspf/navbar.jspf");
+  }
+
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
 
   public java.util.List<String> getDependants() {
@@ -43,16 +49,57 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("\n");
       out.write("\n");
+      out.write("\n");
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>Home</title>\n");
+      out.write("        ");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!-- Latest compiled and minified CSS -->\n");
+      out.write("        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" \n");
+      out.write("              integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\">\n");
+      out.write("\n");
+      out.write("        <!-- Optional theme -->\n");
+      out.write("        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css\" \n");
+      out.write("              integrity=\"sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp\" crossorigin=\"anonymous\">\n");
+      out.write("\n");
+      out.write("        <!-- Latest compiled and minified JavaScript -->\n");
+      out.write("        <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" \n");
+      out.write("        integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>\n");
+      out.write("\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        <title>JSP Page</title>\n");
+      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"Css/style.css\">\n");
+      out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n");
+      out.write("<link rel=\"stylesheet\" media=\"(max-width: 640px)\" href=\"max-640px.css\">\n");
+      out.write("<link rel=\"stylesheet\" media=\"(min-width: 640px)\" href=\"min-640px.css\">\n");
+      out.write("<link rel=\"stylesheet\" media=\"(orientation: portrait)\" href=\"portrait.css\">\n");
+      out.write("<link rel=\"stylesheet\" media=\"(orientation: landscape)\" href=\"landscape.css\">bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js\" integrity=\"sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy\" crossorigin=\"anonymous\"></script>");
+      out.write("\n");
+      out.write("        \n");
+      out.write("        ");
+      out.write("\n");
+      out.write("\n");
+      out.write("   <nav class=\"navbar navbar-inverse navbar-fixed-top\">\n");
+      out.write("  <div class=\"container-fluid\">\n");
+      out.write("    <div class=\"navbar-header\">\n");
+      out.write("      <a class=\"navbar-brand\" href=\"#\">WebSiteName</a>\n");
+      out.write("    </div>\n");
+      out.write("    <ul class=\"nav navbar-nav\">\n");
+      out.write("      <li class=\"active\"><a href=\"#\">Home</a></li>\n");
+      out.write("      <li><a href=\"#\">Page 1</a></li>\n");
+      out.write("      <li><a href=\"#\">Page 2</a></li>\n");
+      out.write("      <li><a href=\"#\">Page 3</a></li>\n");
+      out.write("    </ul>\n");
+      out.write("  </div>\n");
+      out.write("</nav>");
+      out.write("\n");
+      out.write("        <title>JSP Page</title>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
-      out.write("        <h1>Pagina inicial</h1>\n");
-      out.write("        <b/>\n");
-      out.write("        <h2> Teste </h2>\n");
+      out.write("        <h1>Hello World!</h1>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
