@@ -12,9 +12,10 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
   private static java.util.List<String> _jspx_dependants;
 
   static {
-    _jspx_dependants = new java.util.ArrayList<String>(2);
+    _jspx_dependants = new java.util.ArrayList<String>(3);
     _jspx_dependants.add("/WEB-INF/jspf/header.jspf");
     _jspx_dependants.add("/WEB-INF/jspf/navbar.jspf");
+    _jspx_dependants.add("/WEB-INF/jspf/footer.jspf");
   }
 
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
@@ -71,7 +72,7 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
       out.write("        <title>JSP Page</title>\n");
-      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"Css/style.css\">\n");
+      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"Css/Style.css\">\n");
       out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n");
       out.write("<link rel=\"stylesheet\" media=\"(max-width: 640px)\" href=\"max-640px.css\">\n");
       out.write("<link rel=\"stylesheet\" media=\"(min-width: 640px)\" href=\"min-640px.css\">\n");
@@ -85,21 +86,38 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("   <nav class=\"navbar navbar-inverse navbar-fixed-top\">\n");
       out.write("  <div class=\"container-fluid\">\n");
       out.write("    <div class=\"navbar-header\">\n");
-      out.write("      <a class=\"navbar-brand\" href=\"#\">WebSiteName</a>\n");
+      out.write("      <a class=\"navbar-brand\" href=\"#\"></a>\n");
       out.write("    </div>\n");
       out.write("    <ul class=\"nav navbar-nav\">\n");
       out.write("      <li class=\"active\"><a href=\"#\">Home</a></li>\n");
       out.write("      <li><a href=\"#\">Page 1</a></li>\n");
-      out.write("      <li><a href=\"#\">Page 2</a></li>\n");
-      out.write("      <li><a href=\"#\">Page 3</a></li>\n");
       out.write("    </ul>\n");
       out.write("  </div>\n");
       out.write("</nav>");
       out.write("\n");
       out.write("        <title>JSP Page</title>\n");
       out.write("    </head>\n");
+      out.write("    \n");
       out.write("    <body>\n");
-      out.write("        <h1>Hello World!</h1>\n");
+      out.write("        <br/>\n");
+      out.write("        <br/>\n");
+      out.write("    <center>\n");
+      out.write("        <h1>Pagina Teste</h1>\n");
+      out.write("        <hr/>\n");
+      out.write("        <h2> TESTE DA PAGINA INICIAL</h2>\n");
+      out.write("        <hr/>\n");
+      out.write("    </center>\n");
+      out.write("    \n");
+      out.write("    \n");
+      out.write("    ");
+      out.write("\n");
+      out.write("\n");
+      out.write("<div class=\"container-fluid\" style=\"max-height: 200px; \">\n");
+      out.write("<footer class=\"footer-css\">\n");
+      out.write("    <p class=\"fonte\">Desenvolvido em Dezembro/2018</p>\n");
+      out.write("</footer>\n");
+      out.write("</div>");
+      out.write("\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
