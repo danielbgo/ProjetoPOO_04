@@ -17,9 +17,9 @@ import java.util.ArrayList;
  */
 public class DataBaseConnector {
     private static final String DRIVER = "org.apache.derby.jdbc.ClientDriver";
-    private static final String URL = "";
-    private static final String USER = "";
-    private static final String PASS = "";
+    private static final String URL = "jdbc:derby://localhost:1527/storedb";
+    private static final String USER = "storedb";
+    private static final String PASS = "storedb";
    
     public static ArrayList<Object[]> getQuery(String SQL, Object[] parameters) throws Exception{
         ArrayList<Object[]> list = new ArrayList<>();
